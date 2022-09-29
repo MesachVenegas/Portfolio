@@ -149,12 +149,14 @@ body{
     align-items: center;
     padding: 1rem;
     margin: 1rem;
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     background-color: var(--grayish-orange);
     border-radius: 50%;
 }
 
 .fa-brands{
+    width: 32px;
+    font-weight: bold;
     color: var(--dark-grayish-blue);
 }
