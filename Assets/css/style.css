@@ -37,7 +37,7 @@ body{
     width: 100%;
     right: 0;
     top: 80px;
-    min-height: calc(100vh - 80px);
+    min-height: auto;
     padding: 1.5rem 1rem;
     top: -100%;
     transition: top .7s linear;
@@ -70,7 +70,7 @@ body{
 }
 
 #menu-btn:checked ~ .navbar-menu {
-    top: 15%;
+    top: 10%;
 }
 
 .header-photo{
