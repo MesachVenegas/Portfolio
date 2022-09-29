@@ -34,13 +34,13 @@ body{
 .navbar-menu{
     position: absolute;
     background-color: var(--dark-grayish-blue);
-    width: 100%;
+    width: 60%;
     right: 0;
     top: 80px;
     min-height: auto;
     padding: 1.5rem 1rem;
-    top: -100%;
-    transition: top .7s linear;
+    right: -100%;
+    transition: right .7s linear;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ body{
 }
 
 #menu-btn:checked ~ .navbar-menu {
-    top: 10%;
+    right: 0;
 }
 
 .header-photo{
