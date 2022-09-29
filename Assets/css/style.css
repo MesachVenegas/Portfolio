@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --moderate-cyan: #35B0BF;
+    --grayish-orange: #D2CECB;
+    --dark-grayish-blue: #242635;
+    --dark-grayish-blue-trans: rgb(68, 72, 100);
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: regular;
+    background-color: var(--dark-grayish-blue);
+    color: #FFF;
+}
+
+.navbar{
+    display: flex;
+    padding: .5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.navbar-menu{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 80px;
+    min-height: calc(100vh - 80px);
+    padding: 1.5rem 1rem;
+    top: -100%;
+    transition: top .7s linear;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    padding: .5rem;
+
+}
+
+.nav-link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    background-color: var(--dark-grayish-blue-trans);
+}
+
+.menu-icon{
+    font-size: 24px;
+    color: var(--grayish-orange);
+}
+
+#menu-btn{
+    visibility: hidden;
+}
+
+#menu-btn:checked ~ .navbar-menu {
+    top: 10%;
+}
