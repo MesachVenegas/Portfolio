@@ -39,11 +39,12 @@ body{
     top: 80px;
     min-height: auto;
     padding: 1.5rem 1rem;
-    right: -100%;
-    transition: right .7s linear;
+    left: -100%;
+    transition: left .7s linear;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-item{
@@ -70,7 +71,7 @@ body{
 }
 
 #menu-btn:checked ~ .navbar-menu {
-    right: 0;
+    left: 40%;
 }
 
 .header-photo{
@@ -146,13 +147,15 @@ body{
 .icon-circle{
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
     width: 42px;
     height: 42px;
     background-color: var(--grayish-orange);
     border-radius: 50%;
+    text-decoration: none;
 }
 
 .fa-brands{
