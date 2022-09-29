@@ -32,6 +32,7 @@ body{
 
 .navbar-menu{
     position: absolute;
+    background-color: var(--dark-grayish-blue);
     width: 100%;
     right: 0;
     top: 80px;
@@ -69,5 +70,26 @@ body{
 }
 
 #menu-btn:checked ~ .navbar-menu {
-    top: 10%;
+    top: 15%;
+}
+
+.container-photo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.circle-bg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--dark-grayish-blue-trans);
+    border-radius: 9rem;
+    width: 300px;
+    height: 300px;
+}
+
+.circle-bg>img{
+    margin-bottom: .5rem;
+    object-fit: contain;
 }
