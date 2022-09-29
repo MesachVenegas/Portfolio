@@ -163,3 +163,22 @@ body{
     font-weight: bold;
     color: var(--dark-grayish-blue);
 }
+
+
+
+/* Media Queries */
+/* tableta */
+@media screen and (min-width: 768px) {
+    .menu-hamburger{
+        display: none;
+    }
+
+    .navbar-menu{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
