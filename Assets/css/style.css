@@ -134,6 +134,10 @@ body{
     width: 100%;
 }
 
+.info-divisor_mid{
+    display: none;
+}
+
 .info-years{
     font-weight: 400;
     color: var(--moderate-cyan);
@@ -166,19 +170,80 @@ body{
 
 
 
-/* Media Queries */
-/* tableta */
+/****** Media Queries ******/
+
+/* Teléfonos grandes & tabletas pequeñas*/
 @media screen and (min-width: 768px) {
-    .menu-hamburger{
+    .header-info {
+        position: relative;
+    }
+
+    .name{
+        justify-content: flex-start;
+        font-weight: bold;
+    }
+
+    .info{
+        display: grid;
+        grid-template-rows: repeat(4, .2fr);
+        font-size: 1.2rem;
+        position: absolute;
+        width: 350px;
+        left: 1rem;
+        top: -21rem;
+    }
+
+    .info-divisor{
         display: none;
     }
 
-    .navbar-menu{
+    .info-divisor_mid{
+        display: inline-flex;
+        width: 80%;
+    }
+
+    .info-social{
         display: flex;
-        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        left: 3rem;
+        top: -4rem;
+    }
+
+    .icon-circle{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: .5rem;
+        width: 56px;
+        height: 56;
+    }
+
+    .fa-brands{
+        font-size: 22px;
+    }
+}
+
+/* Tabletas grandes y laptops pequeñas  */
+@media screen and (min-width: 992px) {
+    .menu-hamburger {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+        position: absolute;
+        justify-content: flex-end;
+        font-size: 1.2rem;
         flex-direction: row;
         left: 0;
-        top: 0;
+        top: 10px;
         width: 100%;
+        transition: none;
+        margin-bottom: 2rem;
     }
+
 }
