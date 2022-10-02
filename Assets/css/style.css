@@ -187,7 +187,7 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin: 2rem;
+    margin: 1.5rem;
     background-color: var(--dark-grayish-blue-trans);
     border-radius: 1rem;
     max-height: 140px;
@@ -195,8 +195,8 @@ h2{
 
 .job-item{
     display: flex;
-    justify-content: space-around;
-    width: 9rem;
+    justify-content: center;
+    width: 10rem;
     height: 5rem;
     padding: 1rem;
     margin: 1rem;
