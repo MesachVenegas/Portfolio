@@ -184,8 +184,8 @@ body{
 .job-item{
     display: flex;
     justify-content: space-around;
-    width: 150px;
-    height: 100px;
+    width: 8rem;
+    height: 5rem;
     padding: 1rem;
     margin: 1rem;
     background-color: var(--grayish-orange);
