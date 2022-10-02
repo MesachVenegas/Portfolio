@@ -23,6 +23,18 @@ body{
     color: #FFF;
 }
 
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--moderate-cyan);
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--moderate-cyan);
+}
+
 .navbar{
     display: flex;
     padding: .5rem 1rem;
@@ -184,7 +196,7 @@ body{
 .job-item{
     display: flex;
     justify-content: space-around;
-    width: 8rem;
+    width: 9rem;
     height: 5rem;
     padding: 1rem;
     margin: 1rem;
@@ -254,6 +266,17 @@ body{
 
 /* Tabletas grandes y laptops pequeñas  */
 @media screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+    }
+
     .menu-hamburger {
         display: none;
     }
