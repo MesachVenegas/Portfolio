@@ -196,12 +196,30 @@ h2{
 .job-item{
     display: flex;
     justify-content: center;
-    width: 10rem;
-    height: 5rem;
+    width: 160px;
+    height: 90px;
     padding: 1rem;
     margin: 1rem;
     background-color: var(--grayish-orange);
     border-radius: 1.5rem;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+.services{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 
