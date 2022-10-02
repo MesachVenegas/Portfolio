@@ -196,12 +196,16 @@ h2{
 .job-item{
     display: flex;
     justify-content: center;
-    width: 160px;
-    height: 90px;
+    width: 150px;
+    height: 80px;
     padding: 1rem;
     margin: 1rem;
     background-color: var(--grayish-orange);
     border-radius: 1.5rem;
+}
+
+.job-icon{
+    width: 40px;
 }
 
 .about-me{
@@ -219,9 +223,34 @@ h2{
     display: flex;
     text-align: center;
     flex-direction: column;
-    width: 100%;
 }
 
+.service-cards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .5rem;
+    background-color: #FFF;
+    color: var(--grayish-orange);
+    width: 400px;
+    height: 300px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.card-icon{
+    width: 40%;
+}
 
 
 
