@@ -25,13 +25,13 @@ body{
 
 h1{
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: bold;
     color: var(--moderate-cyan);
 }
 
 h2{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: bold;
     color: var(--dark-grayish-blue);
 }
 
@@ -236,10 +236,12 @@ h2{
 
 .service-card{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-radius: .5rem;
+    text-align: center;
     background-color: #FFF;
     color: var(--grayish-orange);
     width: 400px;
@@ -248,17 +250,27 @@ h2{
 }
 
 .service-card-content{
-    position: absolute ;
+    position: absolute;
+    margin-top: .5rem;
+    width: 90%;
 }
 
 .card-icon{
     width: 95px;
 }
 
+.card-title{
+    margin-top: 1rem;
+}
+
+.card-text{
+    margin-top: .5rem;
+}
+
 .bg-vector{
     position: relative;
     top: -26%;
-    width: 250px;
+    width: 240px;
 }
 
 
