@@ -218,6 +218,11 @@ h2{
     padding: 1.5rem;
 }
 
+.about-title{
+    margin-bottom: 1rem;
+}
+
+
 .services{
     display: flex;
     text-align: center;
@@ -325,6 +330,7 @@ h2{
     position: absolute;
     background-color: var(--moderate-cyan);
     height: 10px;
+    border-radius: 4px;
 }
 
 .one{
@@ -336,7 +342,34 @@ h2{
 }
 
 .three{
-    width: 85%;
+    width: 35%;
+}
+
+.for{
+    width: 75%;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title{
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+.project-carrusel{
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+
+.project-sample{
+    width: 300px;
+    height: 300px;
 }
 
 /****** Media Queries ******/
