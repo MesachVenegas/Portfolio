@@ -296,12 +296,21 @@ h2{
 
 .skill-labels{
     display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: baseline;
     margin-top: .5rem;
 }
 
-/* .skills-subtitle{
-    margin-top: .5rem;
-} */
+.skills-subtitle{
+    position: absolute;
+    left: 1%;
+}
+
+.skill-porcent{
+    font-size: .7rem;
+    color: var(--moderate-cyan);
+}
 
 .skill-bar{
     position: relative;
