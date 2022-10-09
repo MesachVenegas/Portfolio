@@ -476,7 +476,7 @@ h3{
         position: absolute;
         width: 350px;
         left: 1rem;
-        top: -21rem;
+        top: -23rem;
     }
 
     .info-divisor{
@@ -495,7 +495,7 @@ h3{
         align-content: center;
         position: absolute;
         left: 3rem;
-        top: -4rem;
+        top: -7rem;
     }
 
     .icon-circle{
@@ -512,9 +512,22 @@ h3{
         font-size: 20px;
     }
 
+    .job-container{
+        display: flex;
+        position: relative;
+        width: 100%;
+        top: -2.5rem;
+        justify-content: center;
+    }
+
     .jobs{
-        padding: .5rem;
-        margin: 3rem;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .job-item{
+        width: 130px;
     }
 
     .skills{
@@ -584,5 +597,44 @@ h3{
 
     .info-social{
         top: -10rem;
+    }
+
+    .job-container{
+        width: 100vw;
+    }
+
+    .jobs{
+        width: 600px;
+        padding: 3rem;
+        margin: 0;
+        border-radius: .25em;
+    }
+
+    .job-item{
+        border-radius: .5rem;
+        margin: 1rem;
+        height: 90px;
+    }
+
+    .job-icon{
+        width: 60px;
+    }
+
+    .service-cards{
+        overflow: none;
+    }
+
+    .card-bard{
+        margin: 0 15%;
+    }
+
+    .project-img{
+        width: 500px;
+    }
+
+    ::-webkit-scrollbar{
+        display: flex;
+        height: 10px;
+        color: var(--moderate-cyan);
     }
 }
