@@ -451,6 +451,10 @@ h3{
     color: var(--moderate-cyan);
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 /****** Media Queries ******/
 
 /* Teléfonos grandes & tabletas pequeñas*/
