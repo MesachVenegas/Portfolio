@@ -506,6 +506,26 @@ h3{
     .fa-brands{
         font-size: 20px;
     }
+
+    .jobs{
+        padding: .5rem;
+        margin: 3rem;
+    }
+
+    .skills{
+        margin: 3rem;
+    }
+
+    .project-img{
+        width: 350px;
+    }
+
+    .cards{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+
 }
 
 /* Tabletas grandes y laptops pequeñas  */
