@@ -353,6 +353,8 @@ h2{
 .projects{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    overflow: hidden;
 }
 
 .project-title{
@@ -360,15 +362,23 @@ h2{
     padding: .5rem;
     margin-bottom: .5rem;
 }
-/*
+
 .project-carrusel{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.project-sample {
+    display: flex;
+    justify-content: center;
 
 }
 
-.project-sample{
-    width: 300px;
-    height: 300px;
-} */
+.project-img{
+    margin: .5rem;
+    padding: .5rem;
+    width: 250px;
+}
 
 /****** Media Queries ******/
 
