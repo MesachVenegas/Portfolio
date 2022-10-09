@@ -453,7 +453,8 @@ h3{
 }
 
 ::-webkit-scrollbar{
-    display: none;
+    /* display: none; */
+    visibility: hidden;
 }
 
 /****** Media Queries ******/
@@ -621,7 +622,7 @@ h3{
     }
 
     .service-cards{
-        overflow: none;
+        overflow-x: hidden;
     }
 
     .card-bard{
@@ -629,12 +630,12 @@ h3{
     }
 
     .project-img{
-        width: 500px;
+        width: 550px;
     }
 
     ::-webkit-scrollbar{
-        display: flex;
+        visibility: visible;
         height: 10px;
-        color: var(--moderate-cyan);
+        background-color: var(--dark-grayish-blue-trans);
     }
 }
