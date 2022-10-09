@@ -381,7 +381,8 @@ h3{
 .project-img{
     margin: .5rem;
     padding: .5rem;
-    width: 250px;
+    width: 280px;
+    height: auto;
 }
 
 .contact{
